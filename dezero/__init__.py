@@ -1,3 +1,5 @@
+is_simple_core = True
+
 from dezero.core_simple import Variable
 from dezero.core_simple import Function
 from dezero.core_simple import using_config

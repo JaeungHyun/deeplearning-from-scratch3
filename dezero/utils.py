@@ -13,7 +13,7 @@ def _dot_var(v, verbose=False):
         if v.name is not None:
             name += ': '
         name += str(v.shape) + ' ' + str(v.dtype)
-
+    
     return dot_var.format(id(v), name)
 
 

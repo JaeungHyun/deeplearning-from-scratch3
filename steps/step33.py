@@ -13,6 +13,6 @@ y.backward(create_graph=True)
 print(x.grad)
 
 gx = x.grad
-x.cleargrad()
+#x.cleargrad()
 gx.backward()
 print(x.grad)
